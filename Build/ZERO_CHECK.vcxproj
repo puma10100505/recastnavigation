@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5E5FBC80-B717-3073-8216-D429EFE6A043}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\Github\recastnavigation\Build\CMakeFiles\35f295840198c092aa1501d4e477ce94\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Development/Github/recastnavigation -BC:/Development/Github/recastnavigation/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Development/Github/recastnavigation/Build/RecastNavigation.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;C:\Development\Github\recastnavigation\CMakeLists.txt;C:\Development\Github\recastnavigation\DebugUtils\CMakeLists.txt;C:\Development\Github\recastnavigation\Detour\CMakeLists.txt;C:\Development\Github\recastnavigation\DetourCrowd\CMakeLists.txt;C:\Development\Github\recastnavigation\DetourTileCache\CMakeLists.txt;C:\Development\Github\recastnavigation\Recast\CMakeLists.txt;C:\Development\Github\recastnavigation\RecastDemo\CMakeLists.txt;C:\Development\Github\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;C:\Development\Github\recastnavigation\Tests\CMakeLists.txt;C:\Development\Github\recastnavigation\recastnavigation.pc.in;C:\Development\Github\recastnavigation\version.h.in;D:\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.22\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Development\Github\recastnavigation\Build\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DebugUtils\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Detour\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DetourCrowd\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DetourTileCache\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Recast\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\RecastDemo\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Development/Github/recastnavigation -BC:/Development/Github/recastnavigation/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Development/Github/recastnavigation/Build/RecastNavigation.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;C:\Development\Github\recastnavigation\CMakeLists.txt;C:\Development\Github\recastnavigation\DebugUtils\CMakeLists.txt;C:\Development\Github\recastnavigation\Detour\CMakeLists.txt;C:\Development\Github\recastnavigation\DetourCrowd\CMakeLists.txt;C:\Development\Github\recastnavigation\DetourTileCache\CMakeLists.txt;C:\Development\Github\recastnavigation\Recast\CMakeLists.txt;C:\Development\Github\recastnavigation\RecastDemo\CMakeLists.txt;C:\Development\Github\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;C:\Development\Github\recastnavigation\Tests\CMakeLists.txt;C:\Development\Github\recastnavigation\recastnavigation.pc.in;C:\Development\Github\recastnavigation\version.h.in;D:\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.22\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Development\Github\recastnavigation\Build\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DebugUtils\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Detour\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DetourCrowd\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DetourTileCache\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Recast\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\RecastDemo\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Development/Github/recastnavigation -BC:/Development/Github/recastnavigation/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Development/Github/recastnavigation/Build/RecastNavigation.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;C:\Development\Github\recastnavigation\CMakeLists.txt;C:\Development\Github\recastnavigation\DebugUtils\CMakeLists.txt;C:\Development\Github\recastnavigation\Detour\CMakeLists.txt;C:\Development\Github\recastnavigation\DetourCrowd\CMakeLists.txt;C:\Development\Github\recastnavigation\DetourTileCache\CMakeLists.txt;C:\Development\Github\recastnavigation\Recast\CMakeLists.txt;C:\Development\Github\recastnavigation\RecastDemo\CMakeLists.txt;C:\Development\Github\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;C:\Development\Github\recastnavigation\Tests\CMakeLists.txt;C:\Development\Github\recastnavigation\recastnavigation.pc.in;C:\Development\Github\recastnavigation\version.h.in;D:\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.22\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Development\Github\recastnavigation\Build\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DebugUtils\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Detour\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DetourCrowd\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DetourTileCache\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Recast\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\RecastDemo\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SC:/Development/Github/recastnavigation -BC:/Development/Github/recastnavigation/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Development/Github/recastnavigation/Build/RecastNavigation.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;C:\Development\Github\recastnavigation\Build\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;C:\Development\Github\recastnavigation\CMakeLists.txt;C:\Development\Github\recastnavigation\DebugUtils\CMakeLists.txt;C:\Development\Github\recastnavigation\Detour\CMakeLists.txt;C:\Development\Github\recastnavigation\DetourCrowd\CMakeLists.txt;C:\Development\Github\recastnavigation\DetourTileCache\CMakeLists.txt;C:\Development\Github\recastnavigation\Recast\CMakeLists.txt;C:\Development\Github\recastnavigation\RecastDemo\CMakeLists.txt;C:\Development\Github\recastnavigation\RecastDemo\cmake\FindSDL2.cmake;C:\Development\Github\recastnavigation\Tests\CMakeLists.txt;C:\Development\Github\recastnavigation\recastnavigation.pc.in;C:\Development\Github\recastnavigation\version.h.in;D:\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.22\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Development\Github\recastnavigation\Build\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DebugUtils\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Detour\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DetourCrowd\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\DetourTileCache\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Recast\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\RecastDemo\CMakeFiles\generate.stamp;C:\Development\Github\recastnavigation\Build\Tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

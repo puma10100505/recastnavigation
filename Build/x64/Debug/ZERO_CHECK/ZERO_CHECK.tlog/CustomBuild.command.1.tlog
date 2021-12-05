@@ -1,0 +1,10 @@
+^C:\DEVELOPMENT\GITHUB\RECASTNAVIGATION\BUILD\CMAKEFILES\35F295840198C092AA1501D4E477CE94\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SC:/Development/Github/recastnavigation -BC:/Development/Github/recastnavigation/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Development/Github/recastnavigation/Build/RecastNavigation.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
